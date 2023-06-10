@@ -1,0 +1,44 @@
+.editUserMainContainer
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editUser-border {
+    width: 30%;
+    border-width: 10px 0 0 0;
+    border-style: dotted;
+    border-color: black;
+}
+
+.editUser-threeForms
+{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+    gap: 50px;
+}
+.editUser-form 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.editUser-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/3;
+}
+.editUser-aboutMe
+{
+    grid-column: 1/3;
+}

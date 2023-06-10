@@ -1,0 +1,56 @@
+.box{
+    box-shadow: 0.1vw 0.1vw 0.3vw;
+}
+.box:hover{
+    transform :translate(0,-10px);
+    transition : transform ease-in-out 0.4s;
+}
+.nav-menu-active{ 
+    overflow: auto;
+    top: -6.5vw;
+    right : 0px;
+    position: absolute;  
+    height: 100vh;
+    width: 20vw;
+    background-color: black;
+    transition: all ease-in-out 0.8s;
+}
+.nav-menu{
+    top: -6.5vw;
+    right:-20vw;
+    position: absolute;
+    height: 100%;
+    width: 20vw;
+    background-color: black;
+    transition: all ease-in-out 0.8s;
+}
+.menu-item{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3vw;
+    list-style: none;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+    color: white;
+    text-align: center;
+}
+.menu-item:hover{
+    transform :translate(0,-10px);
+    transition : transform ease-in-out 0.4s;
+}
+.a:hover{
+    color:cyan;
+}
+.b:hover{
+    color:greenyellow;
+}
+.c:hover{
+    color: red;
+}
+.d:hover{
+    color: yellow;
+}
+.e:hover{
+    color:rgb(235, 105, 13)
+}

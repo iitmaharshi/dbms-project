@@ -1,0 +1,47 @@
+.addPost-Form-container
+{
+    display: flex;
+    margin-left: auto ;
+    /* margin-right: auto; */
+    /* background-color: aliceblue; */
+    border-radius: 2rem;
+    /* box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5); */
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.addPost-titleBar-container
+{
+    width: 70%;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    /* border-color: rgb(9, 9, 9);
+    border-width: 30px; */
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+.addPost-elements
+{
+    margin-bottom:1rem;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.addPost-body
+{
+    /* text-align: top; */
+    vertical-align: top;
+    height: 10rem;
+}
+
+.addPost-elementsHead
+{
+    font-size: 1.2vw;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 0.1rem;
+}
